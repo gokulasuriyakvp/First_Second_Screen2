@@ -37,6 +37,9 @@ class FirstScreen extends StatelessWidget {
                     fontSize: 20,
                   ),
                 ),
+                SizedBox(
+                  height: 20,
+                ),
                 ElevatedButton(
                 onPressed: () {
                   Navigator.of(context).push(MaterialPageRoute(
